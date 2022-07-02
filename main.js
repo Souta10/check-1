@@ -1,8 +1,9 @@
 let numbers = [2, 5, 12, 13, 15, 18, 22];
-for (let i=0; i<numbers.length; i++)
-if(numbers%2==0) 
-    console.log(numbers + 'は偶数です');
-
+for (let i=0; i<numbers.length; i++){
+if(numbers%2==0) {
+  console.log(numbers + 'は偶数です');
+  }
+ } 
 
 class car{
     constructor(name,numbers){
